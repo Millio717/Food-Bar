@@ -1,0 +1,85 @@
+.header__wrapper {
+  display: flex;
+  max-height: 1000px;
+}
+
+.header__left-bar {
+  height: 84.3%;
+  max-width: 120px;
+  width: 100%;
+  background-color: #333333;
+}
+
+.header__fon-image {
+  display: block;
+  height: 100%;
+}
+
+.header__nav {
+  position: absolute;
+  right: 120px;
+  top: 40px;
+}
+
+.nav__link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin-right: 70px;
+}
+
+.nav__link-orange {
+  padding: 10px 20px;
+  background-color: #B59571;
+}
+
+@font-face {
+  body {
+    font-family: "Circe Regular";
+    src: url("Circe-Regular.eot");
+    src: url("Circe-Regular.eot?#iefix") format("embedded-opentype"), url("Circe-Regular.woff") format("woff"), url("Circe-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+}
+body * {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+body *,
+body *::before,
+body *::after {
+  box-sizing: border-box;
+}
+body a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+}
+body h1, body h2, body h3, body h4, body h5, body h6, body p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+body ul, body ul li {
+  list-style: none;
+}
+body img {
+  display: block;
+}
+body img, body svg {
+  max-width: 100%;
+  height: auto;
+}
+body button, body input[type=submit] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+body label {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
